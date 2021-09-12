@@ -43,6 +43,8 @@ In the image above, we can see the design of original Neural Network model. This
 		- Neurons: 1
 		- Activation function: Sigmoid
 		
+It is a good rule of thumb for the initial model to use two to three times as many neurons as there are input features or values. We also selected slightly more complex activation functions for our hidden layers than our output layers for our initial model.
+		
 We were unable to achieve the 75% accuracy target model performance on our initial model. 
 
 ![Accuracy_1](/Resources/Accuracy_1.PNG)
@@ -57,4 +59,4 @@ Unfortunately after attempting to optimize our model 3 times, we were not able t
 
 ## Summary
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+After running several tests, we were unable to increase the model performance accuracy to 75%. A way to improve our accuracy could be to increase our dataset since our data may be insufficient or adjust the number of training epochs. Another model that we could potentially use would be Random Forest Classifier. Random Forest Classifiers are a type of ensemble learning model that combines smaller models into a more accurate model. The output may be similar to a Deep Learning model, but Random Forest Classifier can train and predict much faster.
